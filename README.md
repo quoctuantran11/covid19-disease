@@ -8,8 +8,8 @@
 ## Môi trường
 
 * Công cụ: Visual Studio Code
-* Framework: ReactJS, React Bootstraps, React Hooks và React ChartJS
+* Framework: ReactJS, ReactBootstrap, React Hooks và React ChartJS
 
-## Ảnh demo
+## Screenshots
 
 

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap');
+
+.container {
+    font-family: 'Be Vietnam', sans-serif;
+
+    .banner {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+    }
+
+    .spinner-bootstrap {
+        display: block;
+        margin: auto;
+    }
+    
+    h1,
+    .status {
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+    }
+    h1, h3 {
+        text-align: center;
+    }
+    
+    h3 {
+        margin-bottom: 1rem !important;
+    }
+
+    .data-collected {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        .status {
+            position: relative;
+            width: 250px;
+            height: 90px;
+            border-radius: 5px;
+            border-style: solid 1px gray;
+            top: 30px;
+            font-weight: 800;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 5px;
+            line-height: 1.3em;
+
+            p {
+                font-size: 16px;
+                margin-bottom: 0 !important;
+            }
+        }
+
+        #confirmed {
+            background-color: rgba(102, 102, 250, 0.589)
+        }
+
+        #infected {
+            background-color: rgba(221, 100, 19, 0.589);
+        }
+
+        #recovered {
+            background-color: rgba(109, 250, 179, 0.596)
+        }
+
+        #death {
+            background-color: rgba(250, 129, 129, 0.486);
+        }
+    }
+}
