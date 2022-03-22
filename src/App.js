@@ -28,7 +28,7 @@ function App() {
       fetch && <AppContext.Provider value={fetch}>
         <CountryDropDown setName={setName} />
         <Card />
-        <Chart />
+        <Chart name={name} />
       </AppContext.Provider>
       :
       <ReactBootstrap.Spinner className='spinner-bootstrap' animation="border" />}
