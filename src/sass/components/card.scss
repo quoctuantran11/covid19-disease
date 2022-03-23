@@ -74,3 +74,25 @@
         }
     }
 }
+
+@media screen and (max-width: 414px) {
+    .data-collected {
+        display: block !important;
+        
+        .status {
+            margin: 2vh auto;
+        }
+    }
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .data-collected {
+        display: block !important;
+        
+        .status {
+            margin: 1vh auto;
+            float: left;
+            width: 48%;
+        }
+    }
+}

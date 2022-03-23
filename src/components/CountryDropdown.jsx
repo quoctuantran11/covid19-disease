@@ -20,7 +20,6 @@ function CountryDropDown({setName}) {
             <h3>Ngày cập nhật: {fetchedData.latest_date}</h3>
             <Autocomplete
                 autoHighlight
-                sx={{ width: 1020 }}
                 className="combo-box-country"
                 onChange={handleChange}
                 options={fetchedData.countriesName}

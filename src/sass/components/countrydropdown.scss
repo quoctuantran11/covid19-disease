@@ -1,4 +1,17 @@
 .combo-box-country {
     display: block;
     margin: 0 auto;
+    width: 1020px;
+}
+
+@media screen and (max-width: 414px) {
+    .combo-box-country {
+        width: 390px;
+    }
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .combo-box-country {
+        width: 750px;
+    }
 }
